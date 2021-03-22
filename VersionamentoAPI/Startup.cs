@@ -1,4 +1,4 @@
-﻿using ApiVersioning.Swagger;
+﻿using VersionamentoAPI.Swagger;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
@@ -7,7 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Text.Json.Serialization;
 
 
-namespace ApiVersioning
+namespace VersionamentoAPI
 {
     public class Startup
     {

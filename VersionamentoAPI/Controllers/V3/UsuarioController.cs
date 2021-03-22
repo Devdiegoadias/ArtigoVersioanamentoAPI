@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ApiVersioning.Controllers.V3
+namespace VersionamentoAPI.Controllers.V3
 {
     [ApiVersion("3")]    
     [Route("api/v{version:apiVersion}/usuarios")]

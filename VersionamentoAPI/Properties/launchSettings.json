@@ -1,16 +1,8 @@
 {
   "profiles": {
-    "ApiVersioning": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "launchUrl": "api/swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:5000"
-    },
     "VersionamentoAPI": {
-      "commandName": "Executable"
+      "commandName": "Executable",
+      "executablePath": "C:\\Projetos\\artigo-api-versioning-master\\VersionamentoAPI\\bin\\Debug\\net5.0\\VersionamentoAPI.exe"
     }
   }
 }

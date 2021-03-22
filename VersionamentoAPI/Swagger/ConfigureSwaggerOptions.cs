@@ -6,7 +6,7 @@ using Swashbuckle.AspNetCore.SwaggerGen;
 using System;
 using System.IO;
 
-namespace ApiVersioning.Swagger
+namespace VersionamentoAPI.Swagger
 {
     public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
     {
@@ -22,7 +22,7 @@ namespace ApiVersioning.Swagger
             }
 
             options.OperationFilter<SwaggerVersioningOperationFilter>();
-            options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "ApiVersioning.xml"));
+            options.IncludeXmlComments(Path.Combine(AppContext.BaseDirectory, "VersionamentoAPI.xml"));
         }
 
         static OpenApiInfo CreateInfoForApiVersion(ApiVersionDescription description)

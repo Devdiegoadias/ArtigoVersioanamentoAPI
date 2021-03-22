@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace ApiVersioning.Controllers.V1
+namespace VersionamentoAPI.Controllers.V1
 
 {
     [ApiVersion("1", Deprecated = true)]    

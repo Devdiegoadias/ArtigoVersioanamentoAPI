@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <NoWarn>1701;1702;1705;1591</NoWarn>
-    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\ApiVersioning.xml</DocumentationFile>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\VersionamentoAPI.xml</DocumentationFile>
   </PropertyGroup>
   
   <ItemGroup>
